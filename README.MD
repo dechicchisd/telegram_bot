@@ -1,1 +1,1 @@
-My first Telegram Bot
+This bot return the first <p> tags before the index in wikipedia page 

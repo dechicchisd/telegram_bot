@@ -1,6 +1,9 @@
 from telegram.ext import *
-import constants as cost
 import responses
+import os
+from decouple import config
+
+API_KEY = config('API_KEY')
 
 print('Bot started...')
 
@@ -17,7 +20,7 @@ def handle_message(update, context):
 
 
 def main():
-    updater = Updater(cost.API_KEY, use_context=True)
+    updater = Updater(API_KEY, use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler('start', start_command))

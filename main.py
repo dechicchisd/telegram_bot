@@ -1,9 +1,9 @@
 from telegram.ext import *
 import responses
-import os
-from decouple import config
+# from decouple import config
 
-API_KEY = config('API_KEY')
+# API_KEY = config('API_KEY')
+API_KEY = '5158894773:AAEXv5EDzOdpLoxv4xHaieVodp2oZa4-kz4'
 
 print('Bot started...')
 

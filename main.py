@@ -12,7 +12,7 @@ print('Bot started...')
 
 def start_command(update, context):
     update.message.reply_text(
-        'This bot searches what you type on Wikipedia and returns the first lines of the page')
+        'This bot searches on Wikipedia what you type and returns the first lines of the page')
 
 
 def handle_message(update, context):
